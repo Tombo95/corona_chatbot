@@ -1,0 +1,60 @@
+Simple URL:
+https://landbot.io/u/H-410225-IAUSQ0NZKFPSL63I/index.html
+
+
+Live-Chat:
+
+<script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+<script>
+  var myLandbot = new LandbotLivechat({
+    index: 'https://landbot.io/u/H-410225-IAUSQ0NZKFPSL63I/index.html',
+  });
+</script>
+
+
+
+
+Pop-Up:
+
+<script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+<script>
+  var myLandbot = new LandbotPopup({
+    index: 'https://landbot.io/u/H-410225-IAUSQ0NZKFPSL63I/index.html',
+  });
+</script>
+
+
+
+Embeded:
+
+<script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+<div id="myLandbot" style="width: 100%; height: 500px"></div>
+<script>
+  var myLandbot = new LandbotFrameWidget({
+    container: '#myLandbot',
+    index: 'https://landbot.io/u/H-410225-IAUSQ0NZKFPSL63I/index.html',
+  });
+</script>
+
+
+
+
+
+
+Full Page:
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Der Corona Assistent - Antworten auf deine Fragen zum Coronavirus</title>
+  </head>
+  <body>
+    <script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+    <script>
+      var myLandbot = new LandbotFullpage({
+        index: 'https://landbot.io/u/H-410225-IAUSQ0NZKFPSL63I/index.html',
+      });
+    </script>
+  </body>
+</html>
